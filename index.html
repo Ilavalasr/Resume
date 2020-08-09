@@ -11,33 +11,37 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#">
-  <img src="images/person.png" alt="person" width="50" height="50">
-</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/person.png" alt="person" width="50" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Certifications
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">AI and Machine Learning</a>
-        <a class="dropdown-item" href="#">Block Chain</a>
-        <a class="dropdown-item" href="#">Cyber Security</a>
-        <a class="dropdown-item" href="#">Web Development</a>
-      </div>
-    </li>
-  </ul>
-</div>
-</nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#skill">Skills <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Certifications
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">AI and Machine Learning</a>
+            <a class="dropdown-item" href="#">Block Chain</a>
+            <a class="dropdown-item" href="#">Cyber Security</a>
+            <a class="dropdown-item" href="#">Web Development</a>
+            <a class="dropdown-item" href="#">Amazon Web Serices</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -52,53 +56,172 @@
     </div>
     <img class="bottom-cloud" src="https://media.giphy.com/media/l46Cq6tr96hk5NoNW/giphy.gif" alt="cloud">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-            </g>
-        </svg>
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+    </svg>
   </div>
 
   <div class="middle-container">
     <div class="profile">
-      <img class="photo rounded mx-auto d-block" src="images/circle-cropped.png" alt="angela-profile-img">
+      <img class="photo rounded mx-auto d-block" src="images/circle-cropped.png" alt="Suraj-profile-img">
       <h2 class="text-center">Hello,</h2>
-      <p class="intro">I am a back end developer specializing in cyber security and data science. Cyber security focused in developing maleware and anomoly detection. Data science will be focusing on predicting and anomoly detection using a machine learning pipeline.</p>
+      <p class="intro">I am a back end developer specializing in cyber security and data science.<br>
+        I develop firewalls, anti-malware, malware, and network analysis. To conduct network analysis I help create machine learning pipelines to stream live network data from wireshark or ntop.
+        Recently, I have started developing block chains. Currently I am working on create a machine learning model to effectively predict property value.</p>
     </div>
-    <hr>
-    <div class="skills">
-      <h2 class="text-center">My Education</h2>
-      <div class="skill-row">
-        <img class="code-img float-right" src="https://media.giphy.com/media/f4VOOARHMhzRj2V8JM/giphy.gif" alt="code-img">
 
-        <h4>Bachelor of Science: Computer Science</h4>
-        <p>Graduation: 2020<br>Cyber Security Concentration</p>
-        <h4>Bachelor of Science: Psychology</h4>
-        <p>Graduation: 2020</p>
+    <section id="skill">
+      <hr>
+      <div class="skills">
+        <h2 class="text-center">My Education</h2>
+        <div class="skill-row">
+          <img class="code-img float-right" src="https://media.giphy.com/media/f4VOOARHMhzRj2V8JM/giphy.gif" alt="code-img">
+
+          <h4>Bachelor of Science: Computer Science</h4>
+          <p>Graduation: 2020<br>Cyber Security Concentration</p>
+          <h4>Bachelor of Science: Psychology</h4>
+          <p>Graduation: 2020</p>
 
 
+        </div>
+        <h2 class="text-center">My Skills and Tools I have Used</h2>
+        <div class="skill-row">
+          <img class="chilli-img" src="https://media.giphy.com/media/YMp4ZrV4sWuyEENkYT/giphy.gif" alt="chillies-img">
+
+          <h3><strong>Software Engineer</strong></h3>
+          <h4>API's</h4>
+
+          <div class="container">
+            <h5>Java</h5>
+            <p>8 years experience and 6 months work experience</p>
+            <div class="row">
+
+              <ul class="col-sm-6">
+                <h6><u>Type of Work</u></h6>
+                <li>Back End Development</li>
+                <ul>
+                  <li>Creating Malware for testing ML model's</li>
+                </ul>
+                <li>Object Oriented Development</li>
+              </ul>
+              <ul class="col-sm-6">
+                <h6><u>Tools</u></h6>
+                <li>Android Studio</li>
+                <li>Visual Studio Code</li>
+                <li>Eclipse</li>
+              </ul>
+            </div>
+          </div>
+          <div class="container">
+            <h5>Python</h5>
+            <p>4 years experience and 6 months work experience</p>
+            <div class="row">
+              <ul class="col-sm-4">
+                <h6><u>Type of Work</u></h6>
+                <li>Machine Learning</li>
+                <ul>
+                  <p>Learning Styles - </p>
+                  <li>Supervised Learning</li>
+                  <li>Unsupervised Learning</li>
+                  <ul>
+                    <li>Anomoly Detection</li>
+                  </ul>
+                  <p>Algorithm - </p>
+                  <li>Logistic Regression</li>
+                  <li>Linear Regression</li>
+                  <li>Support Vector Machine</li>
+                  <li>Artifical Neural Network</li>
+                </ul>
+              </ul>
+              <ul class="col-sm-4">
+                <li>Data Science</li>
+                <ul>
+                  <li>Data pre-processing</li>
+                  <li>Data Structured Streaming</li>
+                  <li>Databases</li>
+                </ul>
+                <li>Block Chain</li>
+                <ul>
+                  <li>Mining</li>
+                  <li>BitCoin</li>
+                </ul>
+              </ul>
+              <ul class="col-sm-4">
+                <p><u>Tools</u></p>
+                <li>Jupytar Notebook</li>
+                <li>Spyder</li>
+                <li>Visual Studio Code</li>
+                <li>Apache Spark</li>
+                <li>TensorFlow</li>
+              </ul>
+            </div>
+          </div>
+          <div class="container">
+            <h5>C/C++</h5>
+            <p>2 years experiance and 6 months work experience</p>
+            <ul>
+              <h6>Implementation</h6>
+              <li>Linux/Unix, server manipulation, TCP Server/client, raw packet creation.</li>
+            </ul>
+          </div>
+          <div class="container">
+            <h5>Scala</h5>
+            <p>6 months work experiance</p>
+            <ul>
+              <h6>Implementation</h6>
+              <li>Apache Spark and Apache Zeppelin, integrating K-means model with live structured streaming.</li>
+            </ul>
+          </div>
+          <h4>Other Tools</h4>
+          <div class="container">
+            <div class="row">
+              <ul>
+                <li>Octave</li>
+                <ul>
+                  <li>Test Machine Learning algorithm's before deployment.</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Anaconda</li>
+                <ul>
+                  <li>Runs Jupyter and Spyder to create Block Chains and Machine Learning pipeline.</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>Postman</li>
+                <ul>
+                  <li>Used Python Flask to call GET method to create and mine a block chain.</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+          <h3><strong>Web Developer</strong></h3>
+          <h4>API's</h4>
+          <div class="container">
+              <ul>
+                <li>JAVASCRIPT, HTML, and CSS</li>
+                <ul>
+                  <li>2 years Experiance, hosting on github and AWS</li>
+                </ul>
+              </ul>
+              <ul>
+                <li>BOOTSTRAP</li>
+                <ul>
+                  <li>3 months, hosting on github and AWWS</li>
+                </ul>
+              </ul>
+          </div>
+
+        </div>
       </div>
-      <h2 class="text-center">Skills and Tools</h2>
-      <div class="skill-row">
-        <img class="chilli-img" src="https://media.giphy.com/media/YMp4ZrV4sWuyEENkYT/giphy.gif" alt="chillies-img">
-
-        <h3>Software Engineer</h3>
-        <h4>API's</h4>
-        <h5>Java</h5>
-        <p>8 years experience, 6 months work experience in full stack development and object oriented programming using android studio, visual studio code, and eclipse.</p>
-        <h5>Python</h5>
-        <p>4 years, 6 months work experience in Data science and Machine learning using jupytar notebook and visual studio code.</p>
-        <h5>C/C++</h5>
-        <p>2 years, 6 months work experience Linux/Unix, server manipulation, TCP Server/client implementation, creation of raw TCP packet.</p>
-        <h5>Scala</h5>
-        <p>6 months using Apache Spark, integrating K-means model with live structured streaming.</p>
-      </div>
-    </div>
+    </section>
     <hr>
     <div class="contact-me text-center">
       <h2>Get In Touch</h2>
@@ -111,10 +234,10 @@
   <div class="bottom-container text-center">
     <p>To access my Github and Linkedin please click on the following: </p>
     <a class="footer-link" href="https://www.linkedin.com/in/suraj-ilavala-3a6a10109">
-      <img src="images/linkedin.png" alt="linkedin" width="50" height="50">
+      <img src="images/linkedin.png" alt="linkedin" width="30" height="30">
     </a>
     <a class="footer-link text-center" href="https://github.com/ilavalasr">
-      <img class="thumbnail" src="images/github-image.png" alt="github" width="50" height="50">
+      <img class="thumbnail" src="images/github-image.png" alt="github" width="30" height="30">
     </a>
     <p>© 2020 Suraj Ilavala.</p>
   </div>

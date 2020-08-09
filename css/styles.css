@@ -5,8 +5,8 @@ body {
   font-family: 'Merriweather', serif;
 }
 .photo{
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 300px;
+  max-height: 300px;
 }
 h1 {
   color: #66BFBF;
@@ -93,10 +93,13 @@ a:hover {
         transform: translate3d(85px, 0, 0);
     }
 }
+.container{
+  padding-right: 10px;
+}
 .top-container {
   background-color: #222831;
   position: relative;
-  padding-top: 300px;
+  padding-top: 400px;
 }
 
 .middle-container {
