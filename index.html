@@ -27,17 +27,8 @@
         <li class="nav-item active">
           <a class="nav-link" href="#skill">Skills <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Certifications
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">AI and Machine Learning</a>
-            <a class="dropdown-item" href="#">Block Chain</a>
-            <a class="dropdown-item" href="#">Cyber Security</a>
-            <a class="dropdown-item" href="#">Web Development</a>
-            <a class="dropdown-item" href="#">Amazon Web Serices</a>
-          </div>
+        <li class="nav-item active">
+          <a class="nav-link" href="#certification">Certifications <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -165,7 +156,7 @@
           </div>
           <div class="container">
             <h5>C/C++</h5>
-            <p>2 years experiance and 6 months work experience</p>
+            <p>2 years experience and 6 months work experience</p>
             <ul>
               <h6>Implementation</h6>
               <li>Linux/Unix, server manipulation, TCP Server/client, raw packet creation.</li>
@@ -173,7 +164,7 @@
           </div>
           <div class="container">
             <h5>Scala</h5>
-            <p>6 months work experiance</p>
+            <p>6 months work experience</p>
             <ul>
               <h6>Implementation</h6>
               <li>Apache Spark and Apache Zeppelin, integrating K-means model with live structured streaming.</li>
@@ -205,22 +196,51 @@
           <h3><strong>Web Developer</strong></h3>
           <h4>API's</h4>
           <div class="container">
+            <ul>
+              <li>JAVASCRIPT, HTML, and CSS</li>
               <ul>
-                <li>JAVASCRIPT, HTML, and CSS</li>
-                <ul>
-                  <li>2 years Experiance, hosting on github and AWS</li>
-                </ul>
+                <li>2 years experience, hosting on github and AWS</li>
               </ul>
+            </ul>
+            <ul>
+              <li>BOOTSTRAP and jQuery</li>
               <ul>
-                <li>BOOTSTRAP</li>
-                <ul>
-                  <li>3 months, hosting on github and AWS</li>
-                </ul>
+                <li>3 months experience</li>
               </ul>
+            </ul>
           </div>
 
         </div>
       </div>
+    </section>
+    <section id="certification">
+      <hr>
+      <div class="skill-row">
+      <h3 class="text-center"><strong>Certifications</strong></h3>
+      <div class="row">
+        <div class="container">
+          <ul>
+            <li>Coursera - Machine Learning by Stanford University
+            <!-- Trigger the Modal -->
+            <img class="float-right" id="myImg" src="images/0001.jpg" alt="MLcert" style="width:100%;max-width:200px">
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+</div>
     </section>
     <hr>
     <div class="contact-me text-center">
@@ -241,6 +261,28 @@
     </a>
     <p>© 2020 Suraj Ilavala.</p>
   </div>
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+  </script>
 </body>
 
 </html>
